@@ -1,0 +1,20 @@
+{
+  "name": "cyber-impostor",
+  "version": "1.0.0",
+  "description": "赛博朋克风格 Among Us 伙伴附着系统 - 多人实时游戏",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "keywords": ["game", "among-us", "cyberpunk", "multiplayer", "websocket"],
+  "author": "",
+  "license": "MIT"
+}
